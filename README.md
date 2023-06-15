@@ -1,4 +1,5 @@
 Quell Plugin Starter Kit
 
 Planned Enterprise Plugins:
-* amcharts5
+* Am Charts 5
+* Owl Carousel
