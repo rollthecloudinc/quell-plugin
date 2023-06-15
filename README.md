@@ -6,3 +6,9 @@ The best way to udnerstand this is to checkout the below demo.
 
 * https://demo.carbonfreed.app/tractorbeam-test-v3
 * https://demo.carbonfreed.app/tractorbeam-test-v3/manage
+
+The mfe1 download pane is provided by a completely separate Angular application. This is done by adding the plugin using using a context. Once a module context is added the plugins supplied by that application become available to use in the Quell editor.
+
+<img width="1440" alt="Screen Shot 2023-06-15 at 4 11 53 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/fa6e348a-4b69-4f01-a31d-360c4ba616cd">
+
+<img width="1440" alt="Screen Shot 2023-06-15 at 4 14 03 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/7a765f97-3730-4543-899a-3d795e605654">
