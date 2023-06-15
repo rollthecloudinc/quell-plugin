@@ -26,9 +26,9 @@ Using a plugin inside Quell is known as *plugin invocation*. This process involv
 
 <img width="1440" alt="Screen Shot 2023-06-15 at 4 11 53 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/fa6e348a-4b69-4f01-a31d-360c4ba616cd">
 
-<img width="1440" alt="Screen Shot 2023-06-15 at 4 14 03 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/7a765f97-3730-4543-899a-3d795e605654">
-
 The context system is a pivotal part of Quell and loosely based on the [Drupal context system](https://www.drupal.org/project/context). More detail will be provided in future docs.
+
+<img width="1440" alt="Screen Shot 2023-06-15 at 4 14 03 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/7a765f97-3730-4543-899a-3d795e605654">
 
 ## Examples
 
