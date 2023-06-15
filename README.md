@@ -5,6 +5,10 @@ Planned Enterprise Plugins:
 * Owl Carousel
 
 Planned Core Refactors:
-* awos
-* aws3
-* awcog
+
+* AWS
+  * awos
+  * aws3
+  * awcog
+
+Moving all aws specific functionality out of core into independent plugin(s).
