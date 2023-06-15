@@ -18,18 +18,18 @@ The mfe1 download pane is provided by a completely separate Angular application.
 Onboarding workflow for dev to get up and running creating quell plugins working specifically on extending core without needing to modify quell core code, minimal understanding of core.
 
 1. Running spearhead
-1. Creating plugins
+1. Creating Plugins
 1. Invoking plugin
 
-## Running spearhead
+## Running Spearhead
 
 [spearhead](https://github.com/rollthecloudinc/spearhead) is the designated app starter kit for easily running Quell. Spearhead doesn’t maintain any Quell core libraries. Instead the latest releases are pulled down from GitHub as packages when installing the node packages using npm install. Spearhead is supped up Angular starter kit with all magic of Quell already wired up. Spearhead can be treated like any other Angular project once cloned.
 
-## Creating Spell
+## Creating Plugins
 
-Similar in nature to spearhead plugin is the app starter kit for creating a Quell extension. An extension is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the plugin starter kit is configured to work with Angular. In the future there will be spell starters for specific frameworks like query-plugin-react, quell-plugin-vue, quell-plugin-ts, etc.
+Similar in nature to spearhead plugin is the app starter kit for creating a Quell extension. An extension is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the plugin starter kit is configured to work with Angular. In the future there will be spell starters for specific frameworks like quell-plugin-react, quell-plugin-vue, quell-plugin-ts, etc.
 
-## Invoking spell
+## Invoking Plugin
 
 Using a plugin inside Quell is known as *plugin invocation*. This process involves loading the plugin as a *context* into the [Quell editor](https://demo.druidcloud.io/pages/create-panel-page). Once complete the plugin has been innvocated and all plugins within the plugin module accessible from the the Quell shell / editor. In this way plugins are not your typical micro frontend. Plugins don’t typically have a default ui. Instead they define plugin implantations which provides the piping needed to extend core without ever touching Quell core code.
 
