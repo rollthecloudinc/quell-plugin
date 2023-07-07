@@ -6,7 +6,7 @@ SOLIDS are completely independent small Angular applications that can be include
 
 ## SOLID Workflow
 
-Onboarding workflow for dev to get up and running creating SOLIDs working specifically on extending core without needing to modify Wuell core code, minimal understanding of core.
+Onboarding workflow for dev to get up and running creating SOLIDs working specifically on extending core without needing to modify Quell core code, minimal understanding of core.
 
 1. Running spearhead
 1. Creating SOLID
