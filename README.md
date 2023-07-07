@@ -1,28 +1,28 @@
-# Quell Plugin Starter Kit
+# Quell SOLID Starter Kit
 
 ## Introduction
 
-Quell plugins are completely independent Angular applications that can be included at runtime into any Quell based application. Any plugin can be added without modifying Quell core and/or host application that the plugin will be used. This enables development of plugins that extend Quell independent of the core platform itself. Plugin authors deploy plugins on CDNs as small, independent Angular apps that can be loaded remotely. Once published plugins can be added at runtime in the browser when building pages without changing any code or installing new software.
+SOLIDS are completely independent small Angular applications that can be included at runtime into any Quell/Spearhead based application. Any SOLID can be added without modifying Quell/ core and/or host application that the SOLID will be used. This enables development of SOLIDs that extend Quell independent of the core platform itself. SOLID authors deploy SOLIDs on CDNs as small, independent Angular apps that are loaded remotely. Once published SOLIDs are added at runtime in the browser when building pages without changing any code or installing new software.
 
-## Plugin Workflow
+## SOLID Workflow
 
-Onboarding workflow for dev to get up and running creating quell plugins working specifically on extending core without needing to modify quell core code, minimal understanding of core.
+Onboarding workflow for dev to get up and running creating SOLIDs working specifically on extending core without needing to modify Wuell core code, minimal understanding of core.
 
 1. Running spearhead
-1. Creating Plugins
-1. Invoking plugin
+1. Creating SOLID
+1. Invoking a SOLID
 
 ### Running Spearhead
 
 [spearhead](https://github.com/rollthecloudinc/spearhead) is the designated app starter kit for easily running Quell. Spearhead doesn’t maintain any Quell core libraries. Instead the latest releases are pulled down from GitHub as packages when installing the node packages using npm install. Spearhead is supped up Angular starter kit with all magic of Quell already wired up. Spearhead can be treated like any other Angular project once cloned.
 
-### Creating Plugins
+### Creating a SOLID
 
-Similar in nature to spearhead plugin is the app starter kit for creating a Quell extension. An extension is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the plugin starter kit is configured to work with Angular. In the future there will be spell starters for specific frameworks like quell-plugin-react, quell-plugin-vue, quell-plugin-ts, etc.
+Similar in nature to spearhead SOLID is the app starter kit fore extending Quell. A SOLID is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the SOLID starter kit is configured to work with Angular. In the future there will be SOLID starters for specific frameworks like solid-plugin-react, solid-plugin-vue, solid-plugin-ts, etc.
 
-### Invoking Plugin
+### Invoking a SOLID
 
-Using a plugin inside Quell is known as *plugin invocation*. This process involves loading the plugin as a *context* into the [Quell editor](https://demo.druidcloud.io/pages/create-panel-page). Once complete the plugin has been innvocated and all plugins within the plugin module accessible from the the Quell shell / editor. In this way plugins are not your typical micro frontend. Plugins don’t typically have a default ui. Instead they define plugin implantations which provides the piping needed to extend core without ever touching Quell core code.
+Using a SOLID inside Quell is known as *solid invocation*. This process involves loading the SOLID as a *context* into the [Quell editor](https://demo.druidcloud.io/pages/create-panel-page). Once complete the SOLID has been innvocated and all plugins within the SOLID become accessible from the the Quell shell / editor. In this way SOLIDs are not your typical micro frontend. SOLIDs don’t typically have a default ui. Instead they define plugin implantations which provides the piping needed to extend core without ever touching Quell core code.
 
 <img width="1440" alt="Screen Shot 2023-06-15 at 4 11 53 AM" src="https://github.com/rollthecloudinc/quell-plugin/assets/73197190/fa6e348a-4b69-4f01-a31d-360c4ba616cd">
 
