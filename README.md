@@ -18,7 +18,7 @@ Onboarding workflow for dev to get up and running creating SOLIDs working specif
 
 ### SOLID creation
 
-Similar in nature to spearhead SOLID is the app starter kit fore extending Quell. A SOLID is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the SOLID starter kit is configured to work with Angular. In the future there will be SOLID starters for specific frameworks like solid-plugin-react, solid-plugin-vue, solid-plugin-ts, etc.
+Similar in nature to spearhead SOLID is the app starter kit fore extending Quell. A SOLID is any Webpack 5 micro frontend compatible with [module federation](https://webpack.js.org/concepts/module-federation/). Angular is the official framework of Quell therefore the SOLID starter kit is configured to work with Angular. In the future there will be SOLID starters for specific frameworks like solid-react, solid-vue, solid-ts, etc.
 
 ### SOLID Loading
 
