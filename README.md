@@ -1,8 +1,8 @@
-# Quell SOLID Starter Kit
+# SOLID Starter Kit
 
 ## Introduction
 
-SOLIDS are completely independent small Angular applications that can be included at runtime into any Quell/Spearhead based application. Any SOLID can be added without modifying Quell/ core and/or host application that the SOLID will be used. This enables development of SOLIDs that extend Quell independent of the core platform itself. SOLID authors deploy SOLIDs on CDNs as small, independent Angular apps that are loaded remotely. Once published SOLIDs are added at runtime in the browser when building pages without changing any code or installing new software.
+SOLIDS are completely independent small Angular applications that can be included at runtime into any Quell/Spearhead based application. Any SOLID can be added without modifying Quell/Spearhead core or host application that the SOLID will be used. This enables development of SOLIDs that extend Quell independent of the core platform itself. SOLID authors deploy SOLIDs on CDNs as small, independent Angular apps that are loaded remotely. Once published SOLIDs are added at runtime in the browser when building pages without changing any code or installing new software.
 
 ## SOLID Workflow
 
