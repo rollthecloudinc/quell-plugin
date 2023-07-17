@@ -1,3 +1,5 @@
+<img width="183" alt="Screen Shot 2023-07-17 at 2 28 00 AM" src="https://github.com/rollthecloudinc/solid/assets/73197190/d3a99616-f4be-4097-9fd8-566c80c1742a">
+
 # SOLID Starter Kit
 
 ## Introduction
